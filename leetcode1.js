@@ -10,7 +10,7 @@
 
 // 利用哈希表
 
-const twoNums = function(nums, target) {
+const twoNums = function (nums, target) {
   const map = new Map()
   for (let i = 0; i < nums.length; i++) {
     if (map.get(nums[i] - target)) {

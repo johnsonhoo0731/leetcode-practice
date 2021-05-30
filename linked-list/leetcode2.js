@@ -16,7 +16,7 @@ function ListNode(val, next) {
   this.next = (next === undefined ? null : next)
 }
 
-const addTwoNumbers = function(l1, l2) {
+const addTwoNumbers = function (l1, l2) {
   let head = null, tail = null
   let carry = 0
   while (l1 || l2) {
